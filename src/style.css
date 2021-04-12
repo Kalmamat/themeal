@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'RocknRoll One', sans-serif;
+    height: 100%;
+}
+wrapper{
+    position: relative;
+    min-height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.hero-meal {
+    min-height: 100vh;
+    position: relative;
+    background-blend-mode: darken;
+}
+.header{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+.layout-content{
+    padding: 150px 0;
+}
+.header-input{
+    margin-top: 100px;
+}
+.footer{
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
