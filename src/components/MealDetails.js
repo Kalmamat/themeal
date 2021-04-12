@@ -42,7 +42,7 @@ const MealDetails = () => {
         <section className="hero-meal"
                  style={{background: `url(${"https://textures.world/wp-content/uploads/2018/10/Dark-Wood-Seamless-Background-Texture-2-copy-1.jpg"})`}}>
             <Layout>
-                <div className="card bg-transparent">
+                <div className="card bg-transparent pt-5">
                     <div className="row ">
                         <div className="col-md-4 bg-unset ">
                             <img src={dish.strMealThumb} className="w-100 " alt=""/>

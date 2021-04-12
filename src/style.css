@@ -21,13 +21,9 @@ a{
     background-blend-mode: darken;
 }
 .header{
-    z-index: 1;
-    position: absolute;
-    width: 100%;
+
 }
-.layout-content{
-    padding: 150px 0;
-}
+
 .header-input{
     margin-top: 100px;
 }

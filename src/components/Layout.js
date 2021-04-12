@@ -6,7 +6,7 @@ const Layout = ({children}) => {
     return (
         <wpapper>
             <Header/>
-            <div className='container mx-auto py- layout-content'>
+            <div className='container'>
                 {children}
             </div>
             <Footer/>

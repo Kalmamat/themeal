@@ -16,7 +16,7 @@
   "scripts": {
     "start": "node server/server.js",
     "build": "react-scripts build",
-    "dev": "npm run watch:css && react-scripts start",
+    "dev": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

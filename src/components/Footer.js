@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="py-2 fs-6 text-light mt-5 footer" style={{background: "rgb(42,22,4,0.7)"}}>
+        <footer className="py-2 fs-6 text-light mt-5 " style={{background: "rgb(42,22,4,0.7)"}}>
             <div className="container  d-flex justify-content-between">
                 <div>
                    <span>© 2021 TheMealDB  <br/>
@@ -14,7 +14,7 @@ Proudly built by Kalmamat </span>
 
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
 
