@@ -9,7 +9,7 @@ const Dishes = ({meal}) => {
                     <div className="card" >
                         <img src={`${meal.strMealThumb}`} className="card-img-top" alt="..."/>
                     </div>
-                    <div className="card-text fs-6 text-light">{meal.strMeal}</div>
+                    <div className="card-text fs-6 text-light mt-3">{meal.strMeal}</div>
                 </Link>
 
             </div>

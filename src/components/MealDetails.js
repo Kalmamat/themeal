@@ -57,7 +57,7 @@ const MealDetails = () => {
                                                     <img
                                                         src={`https://www.themealdb.com/images/ingredients/${el.name}-Small.png`}
                                                         alt=""/>
-                                                    <h3 className="fw-normal fs-6  text-light">{el.name}</h3>
+                                                    <h3 className="fw-normal fs-6 mt-3  text-light">{el.name}</h3>
                                                 </Link>
                                             </div>
                                         ))

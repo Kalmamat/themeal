@@ -30,14 +30,14 @@ const Browse = () => {
         <section className="hero-meal"
                  style={{background: `url(${"https://textures.world/wp-content/uploads/2018/10/Dark-Wood-Seamless-Background-Texture-2-copy-1.jpg"})`}}>
             <Layout>
-                <div className='card bg-transparent'>
+                <div className='card bg-transparent pt-5'>
                     <div className='row'>
                         {
                             searchResult.map((el) => (
                                 <div className='col-md-3' key={el.idMeal}>
                                     <Link to={`/meals/${el.idMeal}`}>
                                         <img className="w-100" src={el.strMealThumb} alt=""/>
-                                        <div className="fw-normal  text-light">{el.strMeal}</div>
+                                        <div className="fw-normal mt-3  text-light">{el.strMeal}</div>
                                     </Link>
                                 </div>
                             ))

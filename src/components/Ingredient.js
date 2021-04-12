@@ -34,7 +34,7 @@ const Ingredient = () => {
                                         <div className='col-md-3' key={el.idMeal}>
                                             <Link to={`/meal/${el.idMeal}`}>
                                             <img className="w-100" src={el.strMealThumb} alt=""/>
-                                            <div className="fw-normal  text-light">{el.strMeal}</div>
+                                            <div className="fw-normal mt-3 text-light">{el.strMeal}</div>
                                             </Link>
                                         </div>
                                     ))
