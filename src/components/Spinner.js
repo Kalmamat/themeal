@@ -2,7 +2,7 @@ import React from 'react';
 
 const Spinner = () => {
     return (
-        <div className='my-24 mt-5'>
+        <div className='my-24 spinner'>
             <svg style={{margin: 'auto', background: 'rgb(255, 255, 255)', display: 'block'}} width="200px" height="200px">
                 <g>
                     <circle cx="60" cy="50" r="4" fill="#e15b64">

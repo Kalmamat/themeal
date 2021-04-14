@@ -52,12 +52,12 @@ const MealDetails = () => {
                                 <div className="row">
                                     {
                                         ingredient.map((el) => (
-                                            <div className="col-md-4 text-center" key={el.idMeal}>
+                                            <div className="col-md-4 text-center mealdetails" key={el.idMeal}>
                                                 <Link to={`/ingredient/${el.name}`}>
                                                     <img
                                                         src={`https://www.themealdb.com/images/ingredients/${el.name}-Small.png`}
                                                         alt=""/>
-                                                    <h3 className="fw-normal fs-6 mt-3  text-light">{el.name}</h3>
+                                                    <h3 className="fw-normal fs-6 my-3  text-light">{el.name}</h3>
                                                 </Link>
                                             </div>
                                         ))

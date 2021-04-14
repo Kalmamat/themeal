@@ -20,7 +20,7 @@ const Header = ({history}) => {
             <nav className="navbar navbar-light ">
                 <div className="container">
                     <div>
-                        <Link to="/" className="navbar-brand  fs-1 text-light bold"><img className="" src={'https://i.ya-webdesign.com/images/cartoon-soup-png-1.png'} width="60" alt=""/>TheMealKalmamat</Link>
+                        <Link to="/" className="navbar-brand  fs-1 text-light bold"><img className="" src={'https://i.ya-webdesign.com/images/cartoon-soup-png-1.png'} width="60" alt=""/>TheMealDB</Link>
                     </div>
 
                     <div className="d-flex align-items-center">

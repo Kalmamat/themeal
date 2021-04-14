@@ -25,16 +25,16 @@ const Ingredient = () => {
                 <div className='card bg-transparent pt-5'>
                     <div className="row">
                         <div className="col-md-4">
-                            <img className="w-100 " src={`https://www.themealdb.com/images/ingredients/${name}.png`} alt=""/>
+                            <img className="w-100" src={`https://www.themealdb.com/images/ingredients/${name}.png`} alt=""/>
                         </div>
                         <div className="col-md-8">
                             <div className='row'>
                                 {
                                     items.map((el) => (
-                                        <div className='col-md-3' key={el.idMeal}>
+                                        <div className='col-md-3 ingredient' key={el.idMeal}>
                                             <Link to={`/meal/${el.idMeal}`}>
                                             <img className="w-100" src={el.strMealThumb} alt=""/>
-                                            <div className="fw-normal mt-3 text-light">{el.strMeal}</div>
+                                            <div className="fw-normal my-3 text-light">{el.strMeal}</div>
                                             </Link>
                                         </div>
                                     ))

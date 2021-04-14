@@ -37,3 +37,32 @@ position: absolute;
     bottom: 0;
     width: 100%;
 }
+.small-img{
+
+}
+.small-img:hover{
+
+}
+.dishes{
+    transition: 0.5s;
+}
+
+.dishes:hover{
+    transform: scale(1.1);
+}
+.mealdetails{
+    transition: 0.5s;
+}
+.mealdetails:hover{
+    transform: scale(1.3);
+}
+.ingredient{
+    transition: 0.5s;
+}
+.ingredient:hover{
+    transform: scale(1.1);
+}
+.spinner{
+    margin-top: 200px;
+
+}
